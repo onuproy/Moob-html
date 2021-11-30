@@ -4,17 +4,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Moob Coin </title>
+	<title>Moob Coin</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="assets/images/logo/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
-	<!--stylesheet-->
 	<!--bootstrap css-->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<!-- Aso  -->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<!--Good font-->
+	<!--Google font-->
 	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
 		rel="stylesheet">
 	<!--style css-->
@@ -34,11 +33,15 @@
 				<div class="col-md-2">
 					<div class="logo" data-aos="fade-up">
 						<a href="index.html"><img src="assets/images/logo/logo.png" alt="logo"></a>
+						<button type="button" data-bs-toggle="offcanvas"
+							data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+							<img src="assets/images/icon/list.svg" alt="">
+						</button>
 					</div>
 				</div>
 				<!-- Menu  -->
-				<div class="col-md-10">
-					<div class="menu" data-aos="fade-up">
+				<div class="col-md-10 desktop_mneu">
+					<div class="menu " data-aos="fade-up">
 						<ul>
 							<li><a href="#">Moob Coin </a></li>
 							<li><a href="#">Stake</a></li>
@@ -48,23 +51,42 @@
 						</ul>
 					</div>
 				</div>
+				<!-- End Menu  -->
 			</div>
 		</div>
 	</header>
 	<!--==========================================
 		 		End Header area
 	===========================================-->
+	<!-- Offcanvas Menu  -->
+	<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+		<div class="offcanvas-header">
+			<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		</div>
+		<div class="offcanvas-body">
+			<div class="menu">
+				<ul>
+					<li><a href="#">Moob Coin</a></li>
+					<li><a href="#">Stake</a></li>
+					<li><a href="#">Bond</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Get Involved</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- Offcanvas Menu  -->
 
 
 	<!--==========================================
 				Start Banner area
 	===========================================-->
-	<section class="moob_banner_section" >
+	<section class="moob_banner_section">
 		<div class="container-fluid">
 			<div class="row">
 				<!-- Banner Content  -->
 				<div class="col-md-6">
-					<div class="banner_content" data-aos="fade-up" >
+					<div class="banner_content" data-aos="fade-up">
 						<h1>Moob Coin</h1>
 						<p>Moob Coin is a new and different coin.
 							We are creating a decentralized system of financial governance that incorporates real world
@@ -156,8 +178,8 @@
 						<img src="assets/images/works/bond-and-lp-fees.png" alt="Image">
 					</div>
 				</div>
-				<div class="col-md-6" data-aos="fade-up">
-					<div class="works_image">
+				<div class="col-md-6 deskto_image">
+					<div class="works_image " data-aos="fade-up">
 						<img src="assets/images/works/moob-treasury.png" alt="Image">
 					</div>
 				</div>
@@ -174,6 +196,13 @@
 						</div>
 					</div>
 				</div>
+				<!-- Mobile Image  -->
+				<div class="col-md-6 mobile_image">
+					<div class="works_image " data-aos="fade-up">
+						<img src="assets/images/works/moob-treasury.png" alt="Image">
+					</div>
+				</div>
+				<!-- Mobile Image  -->
 				<div class="col-md-6">
 					<div class="works_single_item" data-aos="fade-right">
 						<div class="serial_number">
@@ -192,7 +221,7 @@
 						<img src="assets/images/works/moob-token.png" alt="Image">
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 deskto_image">
 					<div class="works_image" data-aos="fade-right">
 						<img src="assets/images/works/Boom-Rewards.png" alt="Image">
 					</div>
@@ -210,6 +239,13 @@
 						</div>
 					</div>
 				</div>
+				<!-- Mobile Image  -->
+				<div class="col-md-6 mobile_image">
+					<div class="works_image" data-aos="fade-right">
+						<img src="assets/images/works/Boom-Rewards.png" alt="Image">
+					</div>
+				</div>
+				<!-- Mobile Image  -->
 				<div class="col-md-6">
 					<div class="works_single_item" data-aos="fade-right">
 						<div class="serial_number">
@@ -248,7 +284,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-xl-8 col-lg-6">
 					<div class="sustainable_text" data-aos="fade-right">
 						<h5>Treasury Regulated APY</h5>
 						<p>Treasury inflow will always outperform staking rewards</p>
@@ -257,7 +293,7 @@
 						<a href="#">Stake now</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xl-4 col-lg-6">
 					<div class="mood_astaking" data-aos="fade-left">
 						<strong>7,431%</strong>
 						<p>Moob Staking APY</p>
@@ -265,16 +301,18 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-xl-8 col-lg-6">
 					<div class="sustainable_t_left" data-aos="fade-right">
-						<h4>Moob rewards stakers with compounding interest, increasing their Moob holdings over time.</h4>
+						<h4>Moob rewards stakers with compounding interest, increasing their Moob holdings over time.
+						</h4>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xl-4 col-lg-6">
 					<div class="sustainable_text" data-aos="fade-left">
 						<h5>Investment Protection</h5>
 						<p>The fewer Moob staked, the higher APY</p>
-						<p>Moob is minted and evenly distributed for staking rewards. More Moob staked reduces the APY but pushes the Moob price higher, creating a balance that protects your investment.</p>
+						<p>Moob is minted and evenly distributed for staking rewards. More Moob staked reduces the APY
+							but pushes the Moob price higher, creating a balance that protects your investment.</p>
 					</div>
 				</div>
 			</div>
@@ -414,8 +452,6 @@
 		  	 End Liquidity Protected area
 	===========================================-->
 
-	<!--jquery js-->
-	<script src="assets/js/jquery.js"></script>
 	<!--bootstrap js-->
 	<script src="assets/js/bootstrap.bundle.min.js"></script>
 	<!-- Aso  -->
@@ -424,9 +460,9 @@
 	<script src="assets/js/custom.js"></script>
 	<script>
 		AOS.init({
-			 once: 'true',
-			 duration: 1200,
-			});
+			once: 'true',
+			duration: 1200,
+		});
 	</script>
 </body>
 

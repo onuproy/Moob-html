@@ -138,6 +138,8 @@ h2{
 	padding: 8px 27px;
 	border-color: #00c1d5;
 	margin-top: 15px !important;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
 	transition: 0.5s;
 	display: inline-block;
 }
@@ -150,12 +152,18 @@ h2{
 }
 /* Start Style Css */
 .header .container .row {
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	height: 80px;
 }
 .menu ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: flex-end;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
 }
 .menu ul li a {
 	font-family: Manrope;
@@ -166,6 +174,8 @@ h2{
 	color: #75685C;
 	margin-left: 36px;
   display: inline-block;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
   transition: 0.4s;
 }
 .menu ul li a:hover {
@@ -206,6 +216,8 @@ h2{
 	padding: 14px 10px;
 	display: inline-block;
 	width: 150px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 	text-align: center;
 }
@@ -217,8 +229,12 @@ h2{
 	border-radius: 10px;
 	color: #FFF;
 	padding: 75px 72px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	text-align: center;
 	margin-bottom: -43px;
 }
@@ -268,9 +284,6 @@ h2{
 	padding-top: 24px;
 }
 .mood_different_text h2 {
-	font-weight: bold;
-	font-size: 56px;
-	line-height: 48px;
 	color: #FFFFFF;
 }
 .sustainable_section{
@@ -307,7 +320,9 @@ h2{
   margin-right: 88px;
 }
 .liquidity_section.sp .container .row {
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .liquidity_number strong {
 	font-family: Manrope;
@@ -356,10 +371,19 @@ h2{
 	background: #DC4E4A;
 	border-radius: 50%;
 	overflow: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 .mood_astaking strong {
 	font-weight: bold;
@@ -391,7 +415,9 @@ h2{
 	margin-bottom: 32px;
 }
 .row.works_row_custom{
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .works_image {
 	max-width: 270px;
@@ -401,8 +427,12 @@ h2{
 	max-width: 100%;
 }
 .works_single_item {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: flex-start;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
 }
 .serial_number {
 	margin-right: 26px;
@@ -412,10 +442,17 @@ h2{
 	height: 32px;
 	background: #FFFFFF;
 	border: 1px solid #999393;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	border-radius: 50%;
 	font-family: Manrope;
 	font-style: normal;
@@ -525,6 +562,8 @@ h2{
 	color: #FFFFFF;
 	padding-bottom: 16px;
 	display: inline-block;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .footer_item ul li a:hover {
@@ -538,13 +577,26 @@ h2{
 	padding-top: 48px;
 }
 .footer_social ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .footer_social ul li a {
 	margin-right: 17px;
 	width: 24px;
 	cursor: pointer;
 	display: inline-block;
+}
+.logo button{
+  visibility: hidden;
+  display: none;
+}
+.mobile_image{
+  display: none;
 }
