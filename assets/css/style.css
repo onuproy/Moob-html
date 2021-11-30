@@ -117,6 +117,12 @@ img{
 .pb_0{
   padding-bottom: 0px;
 }
+h2{
+  font-weight: 700;
+	font-size: 56px;
+	line-height: 56px;
+	text-align: center;
+}
 .small_button a {
 	font-family: Muli;
 	font-size: 16px;
@@ -235,4 +241,93 @@ img{
 	font-size: 56px;
 	line-height: 48px;
 	color: #201F1F;
+}
+.mood_different{
+  background-image: url('../images/banner/banner-taka.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.liquidity_section.sp {
+	background: #FFE1C9;
+}
+.footer_area {
+	background: #2C2A2A;
+	padding-top: 34px;
+	padding-bottom: 80px;
+}
+.mood_different_text {
+	background: rgba(32, 31, 31, 0.9);
+	padding: 80px;
+}
+.mood_different_text p {
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 36px;
+	text-align: center;
+	color: #FFFFFF;
+	max-width: 837px;
+	margin: auto;
+	width: 100%;
+	padding-top: 24px;
+}
+.mood_different_text h2 {
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 48px;
+	color: #FFFFFF;
+}
+.sustainable_section{
+  background-color: #2C2A2A;
+}
+.a_true_title {
+	max-width: 775px;
+	margin: auto;
+}
+.a_true_title p {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	color: #75685C;
+	padding-top: 32px;
+}
+.a_true_section {
+	padding-bottom: 112px;
+}
+.liquidity_content h2 {
+	text-align: left;
+	padding-bottom: 8px;
+	color: #000000;
+}
+.liquidity_content p {
+	color: #000000;
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	padding-top: 24px;
+  margin-right: 88px;
+}
+.liquidity_section.sp .container .row {
+	align-items: center;
+}
+.liquidity_number strong {
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 48px;
+	color: #DC4E4A;
+	padding-bottom: 16px;
+	display: block;
+}
+.liquidity_number p {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 27px;
+	color: #000000;
+	padding-bottom: 16px;
+  
 }
