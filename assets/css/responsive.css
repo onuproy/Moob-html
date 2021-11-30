@@ -1,0 +1,406 @@
+@media all and (min-width: 1501px) {
+ 
+}
+@media all and (max-width: 1266px) {
+	.main_manu ul li a {
+		font-size: 14px;
+		margin-right: 25px;
+	}
+
+}
+
+@media all and (max-width: 1199px) {
+	.owl-prev {
+		left: 2px;
+		top: -7px;
+		bottom: 0;
+	}
+	.sp {
+		padding-top: 65px;
+		padding-bottom: 65px;
+	}
+	.owl-next {
+		right: 2px;
+		top: -7px;
+		bottom: 0;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	p{
+		font-size: 14px;
+	}
+	.title_find p {
+		font-size: 14px;
+	}
+	.title_find {
+		margin-bottom: 5px;
+	}
+	.find_single_item p {
+		font-size: 14px;
+	}
+	.find_single_item {
+		margin-bottom: 30px;
+	}
+	.find_section.bg_white.sp {
+		padding-bottom: 0;
+	}
+	.home_clinic_section.sp.pb_0 {
+		padding-bottom: 0;
+	}
+	.chinic_image {
+		padding-left: 81px;
+	}
+	.da_chinic_row {
+		margin-top: 162px;
+		padding-bottom: 40px;
+	}
+	.da_clinic_section_two {
+		padding-top: 182px !important;
+		padding-bottom: 180px !important;
+	}
+	.da_clinic_section_three {
+		padding-top: 160px !important;
+		padding-bottom: 200px !important;
+	}
+	.da_clinic_section_four.sp {
+		padding-top: 160px !important;
+		padding-bottom: 200px !important;
+	}
+	.da_clinic_section_five.sp {
+		padding-top: 182px !important;
+		padding-bottom: 180px !important;
+	}
+	.da_clinic_section_six.sp {
+		padding-top: 160px !important;
+		padding-bottom: 200px !important;
+	}
+	.da_clinic_section_seven.sp {
+		padding-top: 206px !important;
+		padding-bottom: 180px !important;
+	}
+	.gallery-filtering .blog_single_item .blog_text {
+		padding: 15px 15px 28px;
+	}
+
+
+}
+@media all and (max-width: 991px) {
+	.find_image {
+		margin-right: 0px;
+	}
+	.find_section .container-area .row{
+		align-items: center;
+	}
+	.clinic_left {
+		padding-top: 0;
+		padding-left: 15px;
+	}
+	.chinic_image {
+		padding-left: 22px;
+	}
+	.chinic_item {
+		display: flex;
+		justify-content: flex-start;
+		padding-top: 35px;
+		flex-direction: column;
+	}
+	.chinic_single_item {
+		flex: auto;
+		max-width: 100%;
+		width: 100%;
+		margin-bottom: 32px;
+		padding-right: 18px;
+		display: flex;
+		align-items: center;
+		width: 80%;
+	}
+	.chinic_img {
+		width: 52px;
+		height: auto;
+		margin-right: 19px;
+		min-width: 52px;
+	}
+	.deskto_menu{
+		display: none;
+	}
+	.logo_area {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 7px;
+	}
+	.nav_icon {
+		display: flex;
+		align-items: center;
+	}
+	.header_area .container-fluid {
+		padding-left: 30px;
+		padding-right: 30px;
+		height: 60px;
+	}
+	.nav_icon button {
+		background: transparent;
+		border: transparent;
+		outline: none !important;
+		padding-top: 5px;
+	}
+	.nav_icon button i {
+		color: #000;
+		font-size: 28px;
+	}
+	.logo a img {
+		height: 28px;
+		width: auto !important;
+	}
+	.get_app_btn a {
+		border-radius: 4px;
+		border: solid 2px #00c1d5;
+		font-family: Muli;
+		font-size: 14px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: 0.2px;
+		text-align: center;
+		color: #00c1d5;
+		padding: 4px 13px;
+		margin-right: 11px;
+	}
+	.btn-close:focus {
+		outline: 0;
+		box-shadow: 0 0 0 .25rem transparent;
+		opacity: 1;
+	}
+	.nav_icon {
+		visibility: visible;
+		opacity: 1;
+	}
+	.main_manu ul {
+		align-items: inherit;
+		justify-content: flex-start;
+		flex-direction: column;
+	}
+	.main_manu ul li:last-child a {
+		color: #00c1d5;
+		border-radius: 4px;
+		border: solid 2px #00c1d5;
+		height: 40px;
+		padding: 4px 12px;
+		margin-right: 0px;
+		line-height: 26px;
+		display: none;
+	}
+	.offcanvas-end {
+		width: 356px;
+	}
+	.main_manu ul li a {
+		font-size: 16px;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.featured_logo_img img {
+		width: 75%;
+	}
+	.tab_item_f{
+		display: none;
+	}
+	.footer-area {
+		background-color: #2d3038;
+		padding-top: 21px;
+		padding-bottom: 0px;
+	}
+	#filters button {
+		font-size: 15px;
+		margin-left: 23px;
+		margin-right: 23px;
+		margin-bottom: 11px;
+		height: 26px;
+	}
+}
+@media all and (max-width: 767px) {
+	.blog_text {
+		padding: 15px 15px 15px;
+	}
+	.lvca_entry_meta {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-content: flex-start;
+		align-items: flex-start;
+	}
+	.find_content {
+		max-width: 100%;
+		padding: 0px 15px;
+	}
+	.chinic_image {
+		display: none;
+	}
+	.chinic_item {
+		display: none;
+	}
+	.mobile_man_img{
+		visibility: visible;
+		opacity: 1;
+		display: block;
+	}
+	.small_button a {
+		width: 100%;
+	}
+	.mobile_man_img img {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.da_chinic_row_none{
+		display: none;
+	}
+	.da_chinic_row {
+		margin-top: 0;
+		padding-bottom: 40px;
+		padding-top: 40px;
+	}
+	.da_clinic_section{
+		padding-top: 0px !important;
+		background-image: url('../images/banner/d_mobile.jpg') !important;
+		background-position-y: 70% !important;
+		padding-bottom: 350px !important;
+	}
+	.da_clinic_section_two{
+		background-image: url('../images/banner/d_mibile_2.jpg') !important;
+		padding-top: 60px !important;
+		padding-bottom: 325px !important;
+	}
+	.da_clinic_section_three{
+		background-image: url('../images/banner/d_miobile_3.jpg') !important;
+		padding-top: 50px !important;
+		padding-bottom: 325px !important;
+	}
+	.da_clinic_section_four.sp{
+		background-image: url('../images/banner/mentalwellness-mainwebsite-mobile.jpg') !important;
+		padding-top: 60px !important;
+		padding-bottom: 325px !important;
+	}
+	.da_clinic_section_five.sp{
+		background-image: url('../images/banner/group-14@2x.jpg') !important;
+		padding-top: 50px !important;
+		padding-bottom: 375px !important;
+	}
+	.da_clinic_section_six.sp{
+		background-image: url('../images/banner/DA-rewards-mobile.jpg') !important;
+		padding-top: 60px !important;
+		padding-bottom: 325px !important;
+	}
+	.da_clinic_section_seven.sp{
+		background-image: url('../images/banner/footer-mobile.jpg') !important;
+		padding-top: 60px !important;
+		padding-bottom: 325px !important;
+	}
+	.featured_logo_img {
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.footer_waypper {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	.d_none_s{
+		display: none;
+	}
+	.accordionExample {
+		visibility: visible;
+		opacity: 1;
+		margin-top: 15px;
+		display: block;
+	}
+	.accordion-button:focus {
+		z-index: 3;
+		border-color: transparent;
+		outline: 0;
+		box-shadow: 0 0 0  transparent;
+	}
+	.accordion-button:not(.collapsed) {
+		color: #fff;
+		background-color: #2d3038;
+		box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+	}
+	.accordion-button {
+		padding: 6px 0px;
+		font-size: 16px;
+		color: #FFF;
+		text-align: left;
+		background-color: #2d3038;
+	}
+	.accordion-item {
+		background-color: transparent;
+		border: 0;
+		border-bottom: 0px solid #393d50;
+	}
+	.accordion-body {
+		padding: 0px 13px;
+		background: #2d3038;
+	}
+	.accordion-body ul li a {
+		color: #FFF;
+		font-size: 14px;
+		line-height: 27px;
+		display: inline-block;
+		padding-bottom: 6px;
+	}
+	.accordion-header {
+		margin-bottom: 0;
+		border-bottom: 1px solid #393d50;
+	}
+	.accordion-button::after {
+		content: "\f107";
+		font-family: fontawesome;
+		font-style: normal;
+		font-size: 16px;
+		position: absolute;
+		top: 1px;
+		right: 10px;
+		color: #fff;
+		background-image: none !important;
+		transition: inherit;
+	}
+	.accordion-button:not(.collapsed)::after {
+		transform: rotate(-180deg);
+		right: 20px;
+		top: 5px;
+	}
+	
+}
+@media all and (max-width: 575px) {
+	.logo_area {
+		padding-top: 9px;
+	}
+	.find_item .find_single_item:nth-child(1), .find_item .find_single_item:nth-child(2), .find_item .find_single_item:nth-child(4), .find_item .find_single_item:nth-child(5) {
+		border-right: 0px solid #979797;
+	}
+	.header_area .container-fluid {
+		padding-left: 20px;
+		padding-right: 15px;
+		height: 62px;
+	}
+	section.find_section.bg_white.sp {
+		background: #fafafa;
+	}
+	section.articels_section.bg_white.sp.pt_0 {
+		background: #fafafa;
+	}
+	.da_clinic_section_five.sp {
+		padding-bottom: 450px !important;
+	}
+	.featured_logo_img {
+		flex: 0 0 33.33%;
+		max-width: 33.33%;
+		margin: 15px 0px;
+	}
+	.featured_logo_img img {
+		width: 85%;
+	}
+
+
+
+
+}
