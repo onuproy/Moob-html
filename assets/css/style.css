@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Muli' !important;
+  font-family: 'Manrope', sans-serif;
   top:0 !important;
   font-size: 16px;
   font-weight: 400;
@@ -104,36 +104,10 @@ img{
   height: auto;
 }
 .sp{
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 140px;
+  padding-bottom: 140px;
 }
-h1{
-  font-size: 30px;
-  font-weight: 900;
-  line-height: normal;
-  letter-spacing: 0.43px;
-  color: #101820;
-  margin-bottom: 17.6px;
-  text-transform: uppercase;
-}
-h1 span{
-  color: #00c1d5;
-}
-p{
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.28;
-  letter-spacing: 0.26px;
-  color: #101820;
-}
-p strong {
-	color: #101820;
-	font-size: 18px;
-	padding-bottom: 8px;
-	display: inline-block;
-}
+
 .bg_white{
   background-color: white;
 }
@@ -168,4 +142,97 @@ p strong {
     overflow-x: hidden !important;
     overflow-y: scroll !important;
 }
-
+/* Start Style Css */
+.header .container .row {
+	align-items: center;
+	height: 80px;
+}
+.menu ul {
+	display: flex;
+	justify-content: flex-end;
+}
+.menu ul li a {
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	color: #75685C;
+	margin-left: 36px;
+  display: inline-block;
+  transition: 0.4s;
+}
+.menu ul li a:hover {
+  color: #DC4E4A;
+}
+.moob_banner_section {
+	background: #FFE1C9;
+	padding-top: 145px;
+}
+.banner_content {
+	max-width: 544px;
+	float: right;
+	padding-right: 20px;
+}
+.banner_image img {
+	width: 100%;
+}
+.banner_content p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: #75685C;
+	padding-bottom: 32px;
+}
+.banner_content h1 {
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 48px;
+	color: #DC4E4A;
+	padding-bottom: 16px;
+}
+.banner_content a {
+	background: #DC4E4A;
+	font-size: 14px;
+	line-height: 19px;
+	color: #FFFFFF;
+	padding: 14px 10px;
+	display: inline-block;
+	width: 150px;
+  transition: 0.5s;
+	text-align: center;
+}
+.banner_content a:hover {
+  background: #201F1F;
+}
+.counter_up_content {
+	background: #201F1F;
+	border-radius: 10px;
+	color: #FFF;
+	padding: 75px 72px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-bottom: -43px;
+}
+.single_counterup strong {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 46px;
+	color: #FFFFFF;
+}
+.single_counterup p {
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 48px;
+	color: #FFFFFF;
+  padding-bottom: 8px;
+}
+/* Works section Css  */
+.title h2 {
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 48px;
+	color: #201F1F;
+}
