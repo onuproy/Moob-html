@@ -487,20 +487,20 @@ h2{
 .row.works_row_custom .col-md-6{
   margin-bottom: 70px;
 }
-.row.works_row_custom > div:nth-child(1), .row.works_row_custom > div:nth-child(3), .row.works_row_custom > div:nth-child(5), .row.works_row_custom > div:nth-child(7), .row.works_row_custom > div:nth-child(9){
+.row.works_row_custom > div:nth-child(1), .row.works_row_custom > div:nth-child(3), .row.works_row_custom > div:nth-child(6), .row.works_row_custom > div:nth-child(7), .row.works_row_custom > div:nth-child(8), .row.works_row_custom > div:nth-child(11){
   padding-left: 106px;
 }
-.row.works_row_custom > div:nth-child(2), .row.works_row_custom > div:nth-child(4), .row.works_row_custom > div:nth-child(6), .row.works_row_custom > div:nth-child(8), .row.works_row_custom > div:nth-child(10){
+.row.works_row_custom > div:nth-child(2), .row.works_row_custom > div:nth-child(4), .row.works_row_custom > div:nth-child(7), .row.works_row_custom > div:nth-child(9), .row.works_row_custom > div:nth-child(12){
   padding-left: 126px;
 }
 .works_section.bg_white.sp {
 	padding-bottom: 53px !important;
 }
-.row.works_row_custom > div:nth-child(4) .works_single_item, .row.works_row_custom > div:nth-child(8) .works_single_item{
+.row.works_row_custom > div:nth-child(4) .works_single_item, .row.works_row_custom > div:nth-child(9) .works_single_item{
   position: relative;
 }
 
-.row.works_row_custom > div:nth-child(4) .works_single_item::after, .row.works_row_custom > div:nth-child(8) .works_single_item::after {
+.row.works_row_custom > div:nth-child(4) .works_single_item::after, .row.works_row_custom > div:nth-child(9) .works_single_item::after {
 	position: absolute;
 	content: "";
 	background: url('../images/icon/shap-left.png') no-repeat scroll;
@@ -509,7 +509,7 @@ h2{
 	width: 270px;
 	height: 100%;
 }
-.row.works_row_custom > div:nth-child(4) .works_single_item::before, .row.works_row_custom > div:nth-child(8) .works_single_item::before {
+.row.works_row_custom > div:nth-child(4) .works_single_item::before, .row.works_row_custom > div:nth-child(9) .works_single_item::before {
 	position: absolute;
 	content: "";
 	background: url('../images/icon/shap-right.png') no-repeat scroll;
@@ -518,7 +518,7 @@ h2{
 	width: 206px;
 	height: 100%;
 }
-.row.works_row_custom > div:nth-child(8) .works_single_item::after {
+.row.works_row_custom > div:nth-child(9) .works_single_item::after {
 	position: absolute;
 	content: "";
 	background: url('../images/icon/shap-left.png') no-repeat scroll;
@@ -527,7 +527,7 @@ h2{
 	width: 270px;
 	height: 100%;
 }
- .row.works_row_custom > div:nth-child(8) .works_single_item::before {
+ .row.works_row_custom > div:nth-child(9) .works_single_item::before {
 	position: absolute;
 	content: "";
 	background: url('../images/icon/shap-right.png') no-repeat scroll;
